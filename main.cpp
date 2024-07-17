@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include <string>
+using namespace std;
 int main() {
     std::cout<<"New changes."<<std::endl;
     std::cout<<"This line is here to show the deletion."<<std::endl;
