@@ -23,5 +23,5 @@ void Chess::print_board() const {
 }
 
 
-
+2
 
