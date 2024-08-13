@@ -55,11 +55,29 @@ build CMakeFiles/myproject.dir/main.cpp.obj: CXX_COMPILER__myproject_unscanned_D
   OBJECT_DIR = CMakeFiles\myproject.dir
   OBJECT_FILE_DIR = CMakeFiles\myproject.dir
 
-build CMakeFiles/myproject.dir/second.cpp.obj: CXX_COMPILER__myproject_unscanned_Debug C$:/Users/13440/myproject/second.cpp || cmake_object_order_depends_target_myproject
-  DEP_FILE = CMakeFiles\myproject.dir\second.cpp.obj.d
+build CMakeFiles/myproject.dir/game1.cpp.obj: CXX_COMPILER__myproject_unscanned_Debug C$:/Users/13440/myproject/game1.cpp || cmake_object_order_depends_target_myproject
+  DEP_FILE = CMakeFiles\myproject.dir\game1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\myproject.dir
   OBJECT_FILE_DIR = CMakeFiles\myproject.dir
+
+build CMakeFiles/myproject.dir/leetcode/editor/cn/19)-remove-nth-node-from-end-of-list.cpp.obj: CXX_COMPILER__myproject_unscanned_Debug C$:/Users/13440/myproject/leetcode/editor/cn/19)-remove-nth-node-from-end-of-list.cpp || cmake_object_order_depends_target_myproject
+  DEP_FILE = CMakeFiles\myproject.dir\leetcode\editor\cn\19)-remove-nth-node-from-end-of-list.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\myproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\myproject.dir\leetcode\editor\cn
+
+build CMakeFiles/myproject.dir/game2.cpp.obj: CXX_COMPILER__myproject_unscanned_Debug C$:/Users/13440/myproject/game2.cpp || cmake_object_order_depends_target_myproject
+  DEP_FILE = CMakeFiles\myproject.dir\game2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\myproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\myproject.dir
+
+build CMakeFiles/myproject.dir/game3/game3.cpp.obj: CXX_COMPILER__myproject_unscanned_Debug C$:/Users/13440/myproject/game3/game3.cpp || cmake_object_order_depends_target_myproject
+  DEP_FILE = CMakeFiles\myproject.dir\game3\game3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\myproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\myproject.dir\game3
 
 
 # =============================================================================
@@ -69,7 +87,7 @@ build CMakeFiles/myproject.dir/second.cpp.obj: CXX_COMPILER__myproject_unscanned
 #############################################
 # Link the executable myproject.exe
 
-build myproject.exe: CXX_EXECUTABLE_LINKER__myproject_Debug CMakeFiles/myproject.dir/main.cpp.obj CMakeFiles/myproject.dir/second.cpp.obj
+build myproject.exe: CXX_EXECUTABLE_LINKER__myproject_Debug CMakeFiles/myproject.dir/main.cpp.obj CMakeFiles/myproject.dir/game1.cpp.obj CMakeFiles/myproject.dir/leetcode/editor/cn/19)-remove-nth-node-from-end-of-list.cpp.obj CMakeFiles/myproject.dir/game2.cpp.obj CMakeFiles/myproject.dir/game3/game3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\myproject.dir
