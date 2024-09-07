@@ -8,5 +8,5 @@ include_directories(.)
 add_executable(game3
         game3.cpp
         game3.h
-        main.cpp
+        main.c
 )

@@ -58,6 +58,19 @@
 				3,
 				4
 			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				6
+			]
 		}
 	],
 	"id" : "myproject::@6890427a1f51a3e7e1df",
@@ -97,7 +110,8 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				6
 			]
 		},
 		{
@@ -144,6 +158,12 @@
 			"backtrace" : 1,
 			"path" : "game3/game3.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "game3/main.c",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"

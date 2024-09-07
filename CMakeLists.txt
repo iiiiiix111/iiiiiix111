@@ -9,5 +9,6 @@ add_executable(myproject main.cpp
         game2.cpp
         game3/game3.cpp
         game3/game3.h
+        game3/main.c
 )
 
