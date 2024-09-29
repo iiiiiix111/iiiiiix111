@@ -156,6 +156,13 @@
       <workItem from="1725632586819" duration="698000" />
       <workItem from="1725765482962" duration="5329000" />
       <workItem from="1725785288467" duration="379000" />
+      <workItem from="1726124460163" duration="20000" />
+      <workItem from="1726124877747" duration="3173000" />
+      <workItem from="1726191462381" duration="10044000" />
+      <workItem from="1726276337704" duration="1015000" />
+      <workItem from="1726816500993" duration="14165000" />
+      <workItem from="1727529635319" duration="2289000" />
+      <workItem from="1727573830074" duration="6235000" />
     </task>
     <servers />
   </component>
@@ -181,6 +188,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>123</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>124</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>125</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
