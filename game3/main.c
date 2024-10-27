@@ -207,11 +207,11 @@ int test5(int x,int y)
 }
 int anyCase(int x)
 {
-
     return !(~x)||!(x)
     ||!((~(x&0xFF))<<24)||!(x&(0xFF000000));
 
 }
+
 int main()
 {
     int x=0x001111FF;
@@ -220,5 +220,6 @@ int main()
     //printf("%d",result);
     int b=~(x&0xFF);
     printf("%x",b);
+
     return 0;
 }
