@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include<string.h>
 #include<stdint.h>
+#include <stdbool.h>
+#define POS_INFINITY 1.8e308+1;
+#define NEG_INFINITY -1.8e308-1;
+#define NEG_ZERO
 //i am tired
 char* toLowerCase(char* s) {
     char* p = s;
@@ -41,6 +45,76 @@ int* shuffle(int* nums, int numsSize, int n, int* returnSize){
     }
     *returnSize=numsSize;
     return arr;
+}
+int** transpose(int** matrix, int matrixSize, int* matrixColSize, int* returnSize, int** returnColumnSizes) {
+    int** a= (int*) malloc(matrixSize*sizeof(int*));
+
+}
+unsigned replace_byte (unsigned x, int i, unsigned char b)
+{
+    return (x&~(0xFF<<(i<<3)))|b<<(i<<3);
+}
+
+void put(const char* c,char** p)
+{
+    for (int i=0;i< strlen(c);i++)
+    {
+
+    }
+}
+void judge(const char* c,const char* HashSet)
+{
+
+}
+int maxScore(char* s) {
+    int score=0;
+    int max=0;
+    size_t a= strlen(s);
+    int left;
+    if (s[0]=='0')
+        left=1;
+    else
+        left=0;
+    int right=0;
+        for (int i=1;i<a;i++)
+    {
+            if (s[i]=='1')
+                right++;
+    }
+        max=left+right;
+        for (int i=1;i<a-1;i++)
+        {
+            if (s[i]=='0')
+                left++;
+            else
+                right--;
+            if (max<left+right)
+                max=left+right;
+        }
+    return max;
+}
+int vowelStrings(char** words, int wordsSize, int left, int right) {
+    int amount=0;
+    char* s="aieou";
+    char* HashSet[5]={NULL};
+    put(s,HashSet);
+    int flag=0;
+    for (int i=left;i<=right;i++)
+    {
+        for (int j=0;j< strlen(words[i]);j++)
+        {
+            if (words[i][0]==s[j])
+                flag++;
+            if (words[i][strlen(words[i])-1]==s[j])
+                flag++;
+            if (flag==2)
+                break;
+        }
+        if (flag==2)
+            amount++;
+        flag=0;
+    }
+    return amount;
 }
 void show_array(int arr[],size_t s)
 {
@@ -131,49 +205,20 @@ int test5(int x,int y)
     unsigned uy=y;
     return x+y==ux+uy;
 }
+int anyCase(int x)
+{
+
+    return !(~x)||!(x)
+    ||!((~(x&0xFF))<<24)||!(x&(0xFF000000));
+
+}
 int main()
 {
-    unsigned a=-2147483647-1U;
-    int arr[10]={1,2,3,4,5,6,7,8,9,10};
-    //int *return_size= (int*) malloc(sizeof(int));
-    //int *new_arr= shuffle(arr,10,5,return_size);
-    //show_array(new_arr,*return_size);
-    //free(new_arr);
-   // free(return_size);
-//    char* s="Hello";
-//    char* t="Hi";
-//    if (uadd_ok(3584292,400))
-//        printf("Arguments can be added without overflow.\n");
-//    else
-//        printf("Arguments can't be added without overflow.\n");
-//    printf("%d",(-8)%16);
-//    if (tadd_ok(31323,31122))
-
-/*
-    if (tsub_ok(INT_MAX,INT_MIN+1))
-        printf("Arguments can be subtracted without overflow.\n");
-    else
-        printf("Arguments can't be subtracted without overflow.\n");
-*/
-/*int x=INT_MIN;
-int y=-x;
-printf("%d",y);*/
-    /*    printf("Arguments can be added without overflow.\n");
-    else
-        printf("Arguments can't be added without overflow.\n");
-    *//*
-    int x=-1;
-    if (div16(x)==x/16)
-        printf("Yes!\n");
-    else
-        printf("No.\n%d,%d", div16(x),x/16);*/
-    int x=INT_MIN;
-    int y=INT_MAX;
-    if (test(x))
-        printf("Yes!\n");
-    else
-        printf("No.\n");
-
-
+    int x=0x001111FF;
+    int a=x&0xFF;
+    //int result= anyCase(x);
+    //printf("%d",result);
+    int b=~(x&0xFF);
+    printf("%x",b);
     return 0;
 }
