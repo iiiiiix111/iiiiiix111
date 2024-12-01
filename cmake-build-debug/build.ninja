@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/13440/myproject/cmake-build-debug/
 
 build cmake_object_order_depends_target_myproject: phony || CMakeFiles/myproject.dir
 
-build CMakeFiles/myproject.dir/main.cpp.obj: CXX_COMPILER__myproject_unscanned_Debug C$:/Users/13440/myproject/main.cpp || cmake_object_order_depends_target_myproject
-  DEP_FILE = CMakeFiles\myproject.dir\main.cpp.obj.d
+build CMakeFiles/myproject.dir/m.c.obj: C_COMPILER__myproject_unscanned_Debug C$:/Users/13440/myproject/m.c || cmake_object_order_depends_target_myproject
+  DEP_FILE = CMakeFiles\myproject.dir\m.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\myproject.dir
   OBJECT_FILE_DIR = CMakeFiles\myproject.dir
@@ -85,6 +85,18 @@ build CMakeFiles/myproject.dir/game3/main.c.obj: C_COMPILER__myproject_unscanned
   OBJECT_DIR = CMakeFiles\myproject.dir
   OBJECT_FILE_DIR = CMakeFiles\myproject.dir\game3
 
+build CMakeFiles/myproject.dir/practice.cpp.obj: CXX_COMPILER__myproject_unscanned_Debug C$:/Users/13440/myproject/practice.cpp || cmake_object_order_depends_target_myproject
+  DEP_FILE = CMakeFiles\myproject.dir\practice.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\myproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\myproject.dir
+
+build CMakeFiles/myproject.dir/practice1.cpp.obj: CXX_COMPILER__myproject_unscanned_Debug C$:/Users/13440/myproject/practice1.cpp || cmake_object_order_depends_target_myproject
+  DEP_FILE = CMakeFiles\myproject.dir\practice1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\myproject.dir
+  OBJECT_FILE_DIR = CMakeFiles\myproject.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target myproject
@@ -93,7 +105,7 @@ build CMakeFiles/myproject.dir/game3/main.c.obj: C_COMPILER__myproject_unscanned
 #############################################
 # Link the executable myproject.exe
 
-build myproject.exe: CXX_EXECUTABLE_LINKER__myproject_Debug CMakeFiles/myproject.dir/main.cpp.obj CMakeFiles/myproject.dir/game1.cpp.obj CMakeFiles/myproject.dir/leetcode/editor/cn/19)-remove-nth-node-from-end-of-list.cpp.obj CMakeFiles/myproject.dir/game2.cpp.obj CMakeFiles/myproject.dir/game3/game3.cpp.obj CMakeFiles/myproject.dir/game3/main.c.obj
+build myproject.exe: CXX_EXECUTABLE_LINKER__myproject_Debug CMakeFiles/myproject.dir/m.c.obj CMakeFiles/myproject.dir/game1.cpp.obj CMakeFiles/myproject.dir/leetcode/editor/cn/19)-remove-nth-node-from-end-of-list.cpp.obj CMakeFiles/myproject.dir/game2.cpp.obj CMakeFiles/myproject.dir/game3/game3.cpp.obj CMakeFiles/myproject.dir/game3/main.c.obj CMakeFiles/myproject.dir/practice.cpp.obj CMakeFiles/myproject.dir/practice1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\myproject.dir

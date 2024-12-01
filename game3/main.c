@@ -211,15 +211,143 @@ int anyCase(int x)
     ||!((~(x&0xFF))<<24)||!(x&(0xFF000000));
 
 }
+int int_shifts_are_arithmetic(int x)
+{
+    size_t d=(sizeof(int)-1)<<3;
+    return (x>>d)&0xF0000000
+         ||((x>>d)&0xF0000000)==0;
+}
+unsigned srl(unsigned x, int k) {
+    /* Perform shift arithmetically */
+    unsigned xsra = (int) x >> k;
+    unsigned xsrl= x>>k;
+    printf("%X\n%X",xsrl,(int)xsra+(1<<(sizeof(int)*8-k)));
+    return (int)xsra+(1<<(sizeof(int)*8-k));
+}
+int sra(int x, int k) {/* Perform shift logically */
+    int xsrl = (unsigned) x >> k;
+    unsigned xsra= (int) x>>k;
+    printf("%X\n%X",xsra,xsrl-((1<<(sizeof(int)*8-k))));
+    return xsrl-((1<<(sizeof(int)*8-k)));
+}
+/* Return 1 when any odd bit of x equals 1; 0 otherwise. Assume w=32 */
+int any_odd_one(unsigned x)
+{
+    printf("%X",x);
+    printf("\n%X\n",x>>1);
+    return (x|(x>>1))==0xFFFFFFFF;
+}
+/* Return 1 when x contains an odd number of Is; 0 otherwise. Assume w=32 */
+int odd_ones(unsigned x)
+{
 
+}
+/** Generate mask indicating leftmost 1 in x. Assume w=32.
+ * * For example, OxFFOO ~> 0x8000, and 0x6600 --> 0x4000.
+ * * If x = 0, then return 0.*/
+int leftmost_one(unsigned x)
+{
+
+}
+/* The following code does not properly on some machines*/
+int bad_int_size_is_32() {
+    /* Set most significant bit (msb) of 32-bit machine */
+    int set_msb = 1 << 31;/* Shift past msb of 32-bit word */
+    int beyond_msb = 1 << 15;
+/*1 run2 3 5 6 7 set_msb is nonzero when word size >= 32
+ *   beyond_msb is zero when word size <= 32 */
+    return set_msb && !beyond_msb;
+}
+/** Mask with least signficant n bits set to 1 *
+ * Examples: n= 6 —> 0x3F, n = 17 —> OxlFFFF *
+ * Assume 1 <= n <= w  */
+int lower_one_mask(int n)
+{
+    unsigned int x=0xFFFFFFFF;
+    return x>>(32-n);
+
+}
+unsigned rotate_left(unsigned x, int n)
+{
+    unsigned s=x<<n;
+    unsigned p=x>>(32-n);
+    unsigned result=s|p;
+    return result;
+}
+int fits_bits(int x, int n)
+{
+    unsigned x1=x;
+    unsigned x2=0xFFFFFFFF;
+    unsigned x3=x2>>(32-n);
+    unsigned result=x1|x3;
+    return !(result>>n)||(n==32);
+}
+/* Declaration of data type where 4 bytes are packed into an unsigned
+*/ typedef unsigned packed_t;
+/* Extract byte from word. Return as signed integer */
+int xbyte(packed_t word, int bytenum)
+{
+    return (int)(word<<((3-bytenum)<<3))>>(3<<3);
+}
+/* Copy integer into buffer if space is available */
+/* WARNING: The following code is buggy */
+void copy_int(int val, void *buf, int maxbytes)
+{
+    if ((int)(maxbytes-(int)sizeof(val)) >= 0)
+        memcpy(buf , (void*) &val, sizeof(val));
+}
+/* Addition that saturates to TMin or TMax */
+int saturating_add(int x, int y)
+{
+    int w=32;
+    int TMin=1<<(w-1);
+    int TMax=TMin-1;
+    int x_mask_sign=x>>(w-1);
+    int y_mask_sign=y>>(w-1);
+    int sum=x+y;
+    int sum_mask_sign=sum>>(w-1);
+    int posi_over=(~x_mask_sign)&(~y_mask_sign)&(sum_mask_sign);
+    int nege_over=(x_mask_sign)&(y_mask_sign)&(~sum_mask_sign);
+    int normal=(~posi_over)|(~nege_over);
+    return (posi_over&TMax)|(nege_over&TMin)|(normal&sum);
+}
+/* Determine whether arguments can be subtracted without overflow */
+int tsub_ok_s(int x, int y)
+{
+    int w=32;
+    int x_mask_sign=((unsigned)x>>(w-1));
+    int y_mask_sign=((unsigned)y>>(w-1));
+    int sum=x+y;
+    int sum_mask_sign=(unsigned)sum>>(w-1);
+    int posi_over=(!x_mask_sign)&&(!y_mask_sign)&&(sum_mask_sign);
+    int nege_over=(x_mask_sign)&&(y_mask_sign)&&(!sum_mask_sign);
+    return (!posi_over)&&(!nege_over)&&!((x&(0x1<<(w-1)))&&y==INT_MIN);
+}
+int signed_high_prod(int x, int y)
+{
+    int w=32;
+    return ((long long)x*(long long)y)>>(w);
+
+}
+unsigned unsigned_high_prod(unsigned x, unsigned y)
+{
+    return (unsigned) signed_high_prod((int)x,(int)y);
+}
+void *calloc(size_t nmernb, size_t size)
+{
+    void* p=NULL;
+    uint64_t usize=nmernb*size;
+    size_t request_size=usize;
+    void* a= malloc(nmernb*size);
+    memset(a,0,request_size);
+    return a;
+}
 int main()
 {
-    int x=0x001111FF;
-    int a=x&0xFF;
-    //int result= anyCase(x);
-    //printf("%d",result);
-    int b=~(x&0xFF);
-    printf("%x",b);
-
+    void* a= malloc(12);
+    unsigned x=INT_MIN;
+    unsigned y=INT_MIN;
+    unsigned result= unsigned_high_prod(x,y);
+    printf("%X",result);
     return 0;
 }

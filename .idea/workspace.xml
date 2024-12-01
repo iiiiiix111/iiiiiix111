@@ -21,8 +21,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c64ac6b-981d-4878-afdc-8b1ce3c7d36e" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/game3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7f4b607a277c89285104.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-09-05T13-42-50-0852.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-myproject-Debug-a9cb5fc0a5e749d09cce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/game2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game3/game3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game3/game3.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game3/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/game3/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m.c" beforeDir="false" afterPath="$PROJECT_DIR$/m.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m.exe" beforeDir="false" afterPath="$PROJECT_DIR$/m.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,13 +90,13 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/13440/myproject/game3/main.c&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/13440/myproject/game3/game3.cpp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -85,7 +106,7 @@
       <recent name="C:\Users\13440\myproject\game3" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ 文件.main.c">
+  <component name="RunManager" selected="C/C++ 文件.practice1.cpp">
     <configuration name="myproject" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myproject" TARGET_NAME="myproject" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="myproject" RUN_TARGET_NAME="myproject">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -97,14 +118,20 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="game2.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myproject" TARGET_NAME="game2.cpp" CONFIG_NAME="game2.cpp (1)">
-      <option name="sourceFile" value="game2.cpp" />
+    <configuration name="game2.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myproject" TARGET_NAME="game2.cpp" CONFIG_NAME="game2.cpp">
+      <option name="sourceFile" value="C:\Users\13440\myproject\game2.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="game2.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myproject" TARGET_NAME="game2.cpp" CONFIG_NAME="game2.cpp">
-      <option name="sourceFile" value="C:\Users\13440\myproject\game2.cpp" />
+    <configuration name="game3.cpp " type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myproject" TARGET_NAME="game3.cpp" CONFIG_NAME="game3.cpp ">
+      <option name="sourceFile" value="C:\Users\13440\myproject\game3\game3.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="m.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myproject" TARGET_NAME="m.c" CONFIG_NAME="m.c">
+      <option name="sourceFile" value="C:\Users\13440\myproject\m.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -115,9 +142,24 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myproject" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="C:\Users\13440\myproject\main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myproject" TARGET_NAME="practice1.cpp" CONFIG_NAME="practice1.cpp">
+      <option name="sourceFile" value="C:\Users\13440\myproject\practice1.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="C/C++ 文件.game2.cpp (1)" />
+      <item itemvalue="C/C++ 文件.main.cpp" />
+      <item itemvalue="C/C++ 文件.game3.cpp " />
       <item itemvalue="C/C++ 文件.main.c" />
+      <item itemvalue="C/C++ 文件.m.c" />
+      <item itemvalue="C/C++ 文件.practice1.cpp" />
       <item itemvalue="C/C++ 文件.game1.cpp" />
       <item itemvalue="C/C++ 文件.game2.cpp" />
       <item itemvalue="CMake 应用程序.myproject" />
@@ -162,7 +204,49 @@
       <workItem from="1726276337704" duration="1015000" />
       <workItem from="1726816500993" duration="14165000" />
       <workItem from="1727529635319" duration="2289000" />
-      <workItem from="1727573830074" duration="6235000" />
+      <workItem from="1727573830074" duration="6622000" />
+      <workItem from="1728450220065" duration="341000" />
+      <workItem from="1728450638091" duration="3002000" />
+      <workItem from="1729147892306" duration="2048000" />
+      <workItem from="1729349406046" duration="28000" />
+      <workItem from="1729349449750" duration="5982000" />
+      <workItem from="1729409391780" duration="1437000" />
+      <workItem from="1729418181011" duration="17000" />
+      <workItem from="1729481572217" duration="215000" />
+      <workItem from="1729481816488" duration="2884000" />
+      <workItem from="1729486348279" duration="1488000" />
+      <workItem from="1729564279231" duration="86000" />
+      <workItem from="1729903989707" duration="12226000" />
+      <workItem from="1729997089836" duration="6663000" />
+      <workItem from="1730019818760" duration="15345000" />
+      <workItem from="1730353009624" duration="3337000" />
+      <workItem from="1730514297611" duration="3881000" />
+      <workItem from="1730631058416" duration="7159000" />
+      <workItem from="1730693488347" duration="603000" />
+      <workItem from="1730819938448" duration="823000" />
+      <workItem from="1730870762530" duration="10000" />
+      <workItem from="1730959410054" duration="11520000" />
+      <workItem from="1731056390455" duration="1128000" />
+      <workItem from="1731079041678" duration="2144000" />
+      <workItem from="1731117103679" duration="4892000" />
+      <workItem from="1731285593140" duration="17827000" />
+      <workItem from="1731387273006" duration="7155000" />
+      <workItem from="1731424545355" duration="53000" />
+      <workItem from="1731424721246" duration="150000" />
+      <workItem from="1731424919677" duration="17000" />
+      <workItem from="1731559529534" duration="35000" />
+      <workItem from="1731679968791" duration="15000" />
+      <workItem from="1731992217017" duration="302000" />
+      <workItem from="1731992631724" duration="5276000" />
+      <workItem from="1732077685176" duration="10863000" />
+      <workItem from="1732166289166" duration="6431000" />
+      <workItem from="1732268686056" duration="5782000" />
+      <workItem from="1732347748464" duration="6845000" />
+      <workItem from="1732502655300" duration="15161000" />
+      <workItem from="1732628650579" duration="4778000" />
+      <workItem from="1732665174600" duration="2816000" />
+      <workItem from="1732768685445" duration="18172000" />
+      <workItem from="1733018578230" duration="9498000" />
     </task>
     <servers />
   </component>
@@ -194,18 +278,118 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/game3/main.c</url>
-          <line>123</line>
+          <line>197</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/game3/main.c</url>
-          <line>124</line>
+          <line>198</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/game3/main.c</url>
-          <line>125</line>
+          <line>199</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>304</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>305</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>306</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>307</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>309</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>310</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>311</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>322</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>321</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>323</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/main.c</url>
+          <line>328</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/m.c</url>
+          <line>48</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/m.c</url>
+          <line>49</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/game3.cpp</url>
+          <line>35</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/game3.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/game3.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/game3.cpp</url>
+          <line>23</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/game3/game3.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/practice.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/practice.cpp</url>
+          <line>49</line>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
